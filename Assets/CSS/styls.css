@@ -1,1 +1,15 @@
+body {
+	margin: 0;
+	display: grid;
+	place-content: center;
+	place-items: center;
+}
 
+#wrapper {
+	display: grid;
+	place-content: center;
+	place-items: center;
+	width: 100%;
+	max-width: 960px;
+	border: 1px solid rgb(175, 231, 19);
+}
