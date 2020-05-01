@@ -1,12 +1,9 @@
 var module = {
 	age: 26,
 	showAge() {
-		setTimeout(
-			function() {
-				console.log(this.age);
-			}.bind(this),
-			1000
-		);
+		setTimeout(() => {
+			console.log(this.age);
+		}, 1000);
 	}
 };
 
