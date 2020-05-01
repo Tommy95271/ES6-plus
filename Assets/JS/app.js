@@ -1,10 +1,12 @@
 var module = {
 	age: 26,
 	showAge() {
-		return this.age;
+		setTimeout(() => {
+			console.log(this.age);
+			return this.age;
+		}, 1000);
 	}
 };
 
-module.showAge();
 var boxes = document.querySelector('.boxes');
 boxes.textContent = module.showAge();
